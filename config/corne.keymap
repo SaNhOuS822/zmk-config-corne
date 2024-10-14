@@ -99,10 +99,10 @@
 
         FUNCTIONAL_KEYS {
             bindings = <
-&kp F11     &kp F1   &kp C_BRIGHTNESS_DEC  &kp C_BRIGHTNESS_INC  &kp F4     &kp F5    &kp C_MUTE  &kp C_VOLUME_DOWN  &kp C_VOLUME_UP  &kp C_PREVIOUS  &kp C_PLAY_PAUSE  &kp C_NEXT
-&kp LCTRL   &kp F18  &mkp LCLK             &mkp MCLK             &mkp RCLK  &trans    &kp F20     &kp F21            &kp F22          &kp F23         &kp PRINTSCREEN   &kp INSERT
-&kp LSHIFT  &kp F19  &trans                &kp CAPS              &trans     &trans    &kp HOME    &kp PAGE_DOWN      &kp PAGE_UP      &kp END         &kp DELETE        &trans
-                                           &trans                &trans     &trans    &trans      &trans             &trans
+&kp F11     &kp F1                &kp C_BRIGHTNESS_DEC  &kp C_BRIGHTNESS_INC  &kp F4     &kp F5    &kp C_MUTE  &kp C_VOLUME_DOWN  &kp C_VOLUME_UP  &kp C_PREVIOUS  &kp C_PLAY_PAUSE  &kp C_NEXT
+&kp LCTRL   &kp C_AC_SCROLL_UP    &mkp LCLK             &mkp MCLK             &mkp RCLK  &trans    &kp F20     &kp F21            &kp F22          &kp F23         &kp PRINTSCREEN   &kp INSERT
+&kp LSHIFT  &kp C_AC_SCROLL_DOWN  &trans                &kp CAPS              &trans     &trans    &kp HOME    &kp PAGE_DOWN      &kp PAGE_UP      &kp END         &kp DELETE        &trans
+                                                        &trans                &trans     &trans    &trans      &trans             &trans
             >;
         };
     };
